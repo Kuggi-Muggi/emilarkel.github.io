@@ -1,28 +1,19 @@
 .text1 {
-    position:relative;
-
+    position: relative;
     width: 20%;
     height: 10%;
     opacity: 100;
-
-
     top: 100%;
     right: -39%;
-    
-
     border: 1px solid black;
-    display: block
+    display: block;
 }
 
-/* --------------------------------------------------------------------- */
-
-
-/* Ensure the logotyper div is on top and the image is the clickable part */
 .logotypContainer {
     position: fixed;
-	top: 10%;
-	left: 10%;
-    z-index: 100; /* Ensure this is higher than any other element */
+    top: 10%;
+    left: 10%;
+    z-index: 100; 
 }
 
 .logotyper {
@@ -31,14 +22,12 @@
     margin: 0;
 }
 
-/* Style the logotyper image to ensure it's properly displayed */
 .logotyper img {
-    width: 40%; /* Adjust size as needed */
+    width: 40%; 
     height: auto;
-    cursor: pointer; /* Indicates the image is clickable */
+    cursor: pointer;
 }
 
-/* Adjust other containers to have lower z-index */
 .mainContainer,
 .startBilderContainer,
 .casesHoverLeft,
@@ -48,214 +37,71 @@
 .clickBottom,
 .clickRight {
     position: relative;
-    z-index: 10; /* Lower z-index to ensure logotyper is on top */
+    z-index: 10; 
 }
-
-
-
-/* --------------------------------------------------------------------- */
-
-
-
-/* --------------------------------------------------------------------- */
-
 
 .boxes {
-    position:absolute;
-    /* Dimensions */
-    width: 550px; 
-    height: 530px; 
+    position: absolute;
+    width: 550px;
+    height: 530px;
     opacity: 0;
-
     bottom: 15%;
     right: 28.5%;
-    
     border: 1px solid black;
-    display: block
+    display: block;
 }
-
-/* --------------------------------------------------------------------- */
-
 
 .bottom {
-    position:absolute;
+    position: absolute;
     margin: auto;
     opacity: 0;
-
     width: 39%; 
     height: 2%; 
-
     bottom: 14.3%;
     right: 30.5%;
-    
     border: 1px solid black;
-    display: block
+    display: block;
 }
-
-/* --------------------------------------------------------------------- */
 
 .leftSide {
-    position:absolute;
+    position: absolute;
     margin: auto;
     opacity: 0;
-
-
     width: 1.5%;
     height: 60%; 
-
-    top:23%;
-    left:28.8%;
-    
-
+    top: 23%;
+    left: 28.8%;
     border: 1px solid black;
-    display: block
+    display: block;
 }
-/* --------------------------------------------------------------------- */
-.rightSide {
-    position:absolute;
-    margin:auto;
-    opacity: 0;
 
+.rightSide {
+    position: absolute;
+    margin: auto;
+    opacity: 0;
     width: 1.5%;
     height: 60%;
-
-    top:23%;
-    right:29%;
-    
-
+    top: 23%;
+    right: 29%;
     border: 1px solid black;
-    display: block
+    display: block;
 }
 
-/* --------------------------------------------------------------------- */
-
-.mainContainer{
-    position: relative;
-    width: 90%;
-    margin: auto;
-    overflow: hidden;
-
-}
-
-.mainContainer img{
-    width: 100%;
-    display: none;
-}
-
-/* --------------------------------------------------------------------- */
-
-.startBilderContainer{
-    position: relative;
-    width: 90%;
-    margin: auto;
-    overflow: hidden;
-
-}
-
-.startBilderContainer img{
-    width: 100%;
-    display: none;
-}
-
-/* --------------------------------------------------------------------- */
-
-.casesHoverLeft{
+.mainContainer {
     position: relative;
     width: 90%;
     margin: auto;
     overflow: hidden;
 }
 
-.casesHoverLeft img{
+.mainContainer img,
+.startBilderContainer img,
+.casesHoverLeft img,
+.hoverFloor img,
+.hoverRight img,
+.clickLeft img,
+.clickBottom img,
+.clickRight img {
     width: 100%;
     display: none;
 }
-
-/* --------------------------------------------------------------------- */
-
-.hoverFloor{
-    position: relative;
-    width: 90%;
-    margin: auto;
-    overflow: hidden;
-
-}
-
-.hoverFloor img{
-    width: 100%;
-    display: none;
-}
-
-/* --------------------------------------------------------------------- */
-
-.hoverRight{
-    position: relative;
-    width: 90%;
-    margin: auto;
-    overflow: hidden;
-
-}
-
-.hoverRight img{
-    width: 100%;
-    display: none;
-}
-.clickLeft{
-    position: relative;
-    width: 90%;
-    margin: auto;
-    overflow: hidden;
-
-}
-
-.clickLeft img{
-    width: 100%;
-    display: none;
-};
-
-/* --------------------------------------------------------------------- */
-
-.clickBottom{
-    position: relative;
-    width: 90%;
-    margin: auto;
-    overflow: hidden;
-
-}
-
-.clickBottom img{
-    width: 100%;
-    display: none;
-};
-
-/* --------------------------------------------------------------------- */
-
-.clickRight{
-    position: relative;
-    width: 90%;
-    margin: auto;
-    overflow: hidden;
-
-}
-
-.clickRight img{
-    width: 100%;
-    display: none;
-};
-
-/* --------------------------------------------------------------------- */
-
-.case1{
-    position: relative;
-    width: 90%;
-    margin: auto;
-    overflow: hidden;
-
-}
-
-.case1 img{
-    width: 100%;
-    display: none;
-};
-
-/* --------------------------------------------------------------------- */
